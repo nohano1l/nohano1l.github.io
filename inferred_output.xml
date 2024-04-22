@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geodesy.org/classroom/304/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304/#MaleStudent">
+    <ns1:gender>male</ns1:gender>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304/#MaleStudent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#contains">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#contains"/>
+    <rdfs:range rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+    <rdfs:domain rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304/#ASUSComputer">
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Keyboard"/>
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Mouse"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304/#ASUSComputer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304/#Classroom304">
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Computer"/>
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Chair"/>
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Keyboard"/>
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Table"/>
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Mouse"/>
+    <ns1:contains rdf:resource="http://www.geodesy.org/classroom/304/#Student"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304/#Classroom304"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#Keyboard">
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Computer"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Keyboard"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304/contains">
+    <rdfs:subPropertyOf rdf:resource="http://www.geodesy.org/classroom/304/contains"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#Mouse">
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Computer"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Mouse"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#Classroom">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304/#FemaleStudent">
+    <ns1:gender>female</ns1:gender>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304/#FemaleStudent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#Student">
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Student"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#Table">
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Table"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#Computer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Computer"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304/gender">
+    <rdfs:subPropertyOf rdf:resource="http://www.geodesy.org/classroom/304/gender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#gender">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#gender"/>
+    <rdfs:domain rdf:resource="http://www.geodesy.org/classroom/304#Student"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geodesy.org/classroom/304#Chair">
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Classroom"/>
+    <rdfs:subClassOf rdf:resource="http://www.geodesy.org/classroom/304#Chair"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+</rdf:RDF>
